@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pousada Secreta</title>
     <link rel="stylesheet" href="estilo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    
+
     <header>
         <!--MENU-->
         <div id="header">
@@ -37,15 +39,15 @@
         </div>
 
         <!--SEJA BEM-VINDO-->
-        <div class="bem-vindo">
-            <h2>Seja Bem-Vindo</h2>
+        <div class="destaque">
+            <h2>SEJA BEM-VINDO (A)! </h2>
             <p>Relaxe em nossas acomodações e curta o melhor de Angra dos Reis.</br>
                 Temos quartos para solteiro, casal ou família.
             </p>
         </div>
 
         <!--CARDS-->
-        <div>
+        <div class="grid"> 
             <div>
                 <img src="./assets/quarto-solteiro1.jpg" alt="Foto quarto de solteiro">
                 </br>
@@ -55,7 +57,6 @@
                 <img src="./assets/quarto-casal1.jpg" alt="Foto quarto de casal">
                 </br>
                 <a href="">QUARTO DE CASAL</a>
-
             </div>
             <div>
                 <img src="./assets/quarto-familia1.jpg" alt="Foto quarto de familia">
@@ -65,74 +66,91 @@
         </div>
 
         <!--ROTA-->
-        <div id="rota">
-            <h3>ROTA</h3>
-            <p>Veja como chegar até a pousada</p>
+        <div id="rota" class="destaque">
+            <h2>ROTA</h2>
+            <p>Veja como chegar até a pousada.</p>
         </div>
 
         <!--IFRAME-->
-        <div>
+        <div class="iframe">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59070.17057845779!2d-41.76522002420934!3d-22.28232064512684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9625cf48f570ff%3A0x4bdd4547a11694f3!2zQ2FiacO6bmFzLCBNYWNhw6kgLSBSSg!5e0!3m2!1spt-BR!2sbr!4v1639690149217!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
         <!--SOBRE-->
-        <div id="sobre">
-            <h1>SOBRE A POUSADA!</h1>
+        <div id="sobre" class="destaque">
+            <h2>SOBRE A POUSADA!</h2>
             <p>Conheça um pouco sobre nossa pousada.</p>
         </div>
 
         <!--IMAGENS POUSADA-->
         <div>
-            <div>
-                <div>
-                    <h4>A pousada</h4>
-                    <p>A pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+            <div id="imagens">
+                <div class="container-img">
                     <img src="./assets/img1.jpg" alt="">
+                    <h4 class="text-img">A pousada</h4>
+                    <p class="text-img">A pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e
+                        bar.</p>
+
                 </div>
-                <div>
-                    <h4>Nossos quartos</h4>
-                    <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para refeição. Álem disso, as
-                        unidades da Pousada Dev contam com Ar condicionado..</p>
+                <div class="container-img">
                     <img src="./assets/img2.jpg" alt="">
+                    <h4 class="text-img">Nossos quartos</h4>
+                    <p class="text-img">Os quartos possuem TV de tela plana a cabo, cozinha compacta e área para
+                        refeição. Álem disso, as
+                        unidades da Pousada Dev contam com Ar condicionado..</p>
+
                 </div>
 
-                <div>
-                    <h4>Alimentação</h4>
-                    <p>A pousada serve café da manhã em estilo continental ou buffet. Nossos restaurantes funcionam 24 hrs.
-                    </p>
+                <div class="container-img">
                     <img src="./assets/img3.jpg" alt="">
+                    <h4 class="text-img">Alimentação</h4>
+                    <p class="text-img">A pousada serve café da manhã em estilo continental ou buffet. Nossos
+                        restaurantes funcionam 24 hrs.
+                    </p>
+
                 </div>
 
-                <div>
-                    <h4>Recepção</h4>
-                    <p>Nossa recepção fica aberta 24hrs.</p>
+                <div class="container-img">
                     <img src="./assets/img5.jpg" alt="">
+                    <h4 class="text-img">Recepção</h4>
+                    <p class="text-img">Nossa recepção fica aberta 24hrs.</p>
+
                 </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div id="rodape">
-            <div class="contato">
-                <h4>Entre em contato conosco:</h4>
-            </div>
-           
-            <a href="https://www.google.com/maps?ll=-22.282324,-41.730201&z=12&t=m&hl=pt-BR&gl=BR&mapclient=embed&q=Cabi%C3%BAnas+Maca%C3%A9+-+RJ">Endereço Av. 123, 22 - Rio de Janeiro RJ</a>
-            
-            <div>
-                <img src="" alt="">
-                <p>Cel: 55 99999-9999</p>
-            </div>
-            <a href="http://www.booking.com">Faça sua reserva pelo Booking.com</a>
-        </div>
+        <div class="rodape">
+            <div class="rodape-conteudo">
+                <div class="contato">
+                    <h4>Entre em contato conosco:</h4>
+                </div>
+                <div class="rodape-img">
+                    <img src="assets/icons/endereco.png" alt="">
+                    <a
+                        href="https://www.google.com/maps?ll=-22.282324,-41.730201&z=12&t=m&hl=pt-BR&gl=BR&mapclient=embed&q=Cabi%C3%BAnas+Maca%C3%A9+-+RJ">Endereço
+                        Av. 123, 22 - Rio de Janeiro RJ</a>
+                </div>
 
-        <div>
+                <div class="rodape-img">
+                    <img src="assets/icons/telefone.png" alt="">
+                    <p>Cel: 55 99999-9999</p>
+                </div>
+
+                <div class="rodape-img">
+                    <img src="./assets/icons/calendario.png" alt="">
+                    <a href="http://www.booking.com">Faça sua reserva pelo Booking.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="contrarodape">
             <p>Copyright - PousadaDev</p>
         </div>
-
+     
     </footer>
 </body>
+
 </html>
