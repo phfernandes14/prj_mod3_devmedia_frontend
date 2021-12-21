@@ -168,3 +168,34 @@ iframe{
     color: blanchedalmond; 
     align-content: center;
 }
+
+/*Página Quartos*/
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
+main img{
+    width: 500px;
+    height: 300px;
+    margin: 0px 15px;
+
+
+}
+
+ul li{
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+}
+.quartos-casal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centralizar h3{
+    text-align: center;
+    margin-top: 35px;
+}
